@@ -1,0 +1,16 @@
+let x = +prompt("Nhap so tien vao: ") ; 
+let a = Math.floor(x/100000) ; 
+let b = x - a*100000 ; 
+let c = Math.floor(b/50000) ; 
+let d = b - c*50000 ; 
+let e = Math.floor(d/20000) ; 
+let f = d - e*20000 ; 
+let g = Math.floor(f/10000) ; 
+alert("So to 100.000 la: " ) ; 
+alert(a) ; 
+alert("So to 50.000 la : ") ; 
+alert(c) ; 
+alert("So to 20.000 la : ") ; 
+alert(e) ; 
+alert ("So to 10000 la : ") ; 
+alert(g) ; 
