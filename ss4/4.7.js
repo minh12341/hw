@@ -7,7 +7,7 @@ if(bmi<18.5) {
 else if (bmi>=18.5 && bmi<25) {
     console.log("Bình thường")  ;
 }
-else if ( bmi>=25 && bmi< 30) {
+else if ( bmi>=25 && bmi<30) {
     console.log("Thừa cân") ; 
 }
 else if (bmi>=30 && bmi<35) {
